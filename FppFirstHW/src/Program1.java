@@ -8,6 +8,8 @@ public class Program1 {
             System.out.println(Math.pow(Math.PI,(double)x));
             System.out.println(Math.pow((double)y, Math.PI));
         }
+
     }
+
 
 
