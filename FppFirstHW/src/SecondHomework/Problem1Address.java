@@ -1,6 +1,8 @@
 package SecondHomework;
 
 public class Problem1Address {
+
+
         private String street;
         private String city;
         private String state;
@@ -14,8 +16,10 @@ public class Problem1Address {
         /**
          * Provides a string representation of an address.
          */
-        public String toString() {
-            return street + ", " + city + ", "+ state + " " + zip;
+        public String toString()
+        {
+            String s = street + ", " + city + ", " + state + " " + zip;
+            return s;
         }
         public String getStreet() {
             return street;
