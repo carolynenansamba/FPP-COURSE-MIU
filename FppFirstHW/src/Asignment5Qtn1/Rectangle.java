@@ -11,12 +11,12 @@ public class Rectangle extends Shape{
     }
     @Override
      double calculateArea(){
-        double area = width * height;
-        return area;
+        return width * height;
+//        return area;
     }
 
      double calculatePerimeter(){
-        double perimeter = (2*width) + (2*height);
-                return perimeter;
+        return (2*width) + (2*height);
+
     }
 }
