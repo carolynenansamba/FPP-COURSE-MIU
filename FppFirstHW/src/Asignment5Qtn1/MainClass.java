@@ -13,15 +13,16 @@ public class MainClass {
         shapes[3] =r2;
         Rectangle r3 = new Rectangle("black", 5,4);
         shapes[4] =r3;
+
       printTotal(shapes);
 
     }
    public  static void printTotal(Shape[] shapes){
        double totalArea = 0.0;
        double totalPerimeter =0.0;
-       for(int i=0; i<shapes.length; i++){
-           totalArea += shapes[i].calculateArea();
-           totalPerimeter += shapes[i].calculatePerimeter() ;
+       for (Shape shape : shapes) {
+           totalArea += shape.calculateArea();
+           totalPerimeter += shape.calculatePerimeter();
 
        }
        System.out.println("Total Area: " + totalArea);
